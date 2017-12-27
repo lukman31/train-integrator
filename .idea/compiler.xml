@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="dao" />
+        <module name="entity" />
+        <module name="inbound-api" />
+        <module name="inbound-impl" />
+        <module name="libraries" />
+        <module name="outbound-api" />
+        <module name="outbound-impl" />
+        <module name="rest-web" />
+        <module name="rest-web-model" />
+        <module name="service-api" />
+        <module name="service-impl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="1.8" />
+      <module name="database-migration" target="1.8" />
+      <module name="entity" target="1.8" />
+      <module name="inbound-api" target="1.8" />
+      <module name="inbound-impl" target="1.8" />
+      <module name="libraries" target="1.8" />
+      <module name="outbound-api" target="1.8" />
+      <module name="outbound-impl" target="1.8" />
+      <module name="rest-web" target="1.8" />
+      <module name="rest-web-model" target="1.8" />
+      <module name="service-api" target="1.8" />
+      <module name="service-impl" target="1.8" />
+      <module name="train-integrator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
