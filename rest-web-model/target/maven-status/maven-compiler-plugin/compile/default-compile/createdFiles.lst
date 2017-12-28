@@ -1,0 +1,6 @@
+com\tiket\tix\train\integrator\rest\web\model\response\SystemParameterResponseBuilder.class
+com\tiket\tix\train\integrator\rest\web\model\response\ExternalSystemParameterResponseBuilder.class
+com\tiket\tix\train\integrator\rest\web\model\response\SystemParameterResponse.class
+com\tiket\tix\train\integrator\rest\web\model\request\CreateSystemParameterRequest.class
+com\tiket\tix\train\integrator\rest\web\model\response\ExternalSystemParameterResponse.class
+com\tiket\tix\train\integrator\rest\web\model\request\UpdateSystemParameterRequest.class

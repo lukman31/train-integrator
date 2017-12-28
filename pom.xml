@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>train-integrator</groupId>
+  <groupId>com.tiket.tix.train-integrator</groupId>
   <artifactId>train-integrator</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -72,62 +72,62 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>rest-web</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>rest-web-model</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>database-migration</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>inbound-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>inbound-impl</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>service-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>service-impl</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>outbound-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>outbound-impl</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>entity</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>dao</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.tiket.tix</groupId>
+        <groupId>com.tiket.tix.train-integrator</groupId>
         <artifactId>libraries</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -308,5 +308,6 @@
     <module>inbound-api</module>
     <module>inbound-impl</module>
     <module>libraries</module>
+    <module>database-migration</module>
   </modules>
 </project>

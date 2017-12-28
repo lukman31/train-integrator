@@ -42,6 +42,7 @@
       <module name="inbound-api" target="1.8" />
       <module name="inbound-impl" target="1.8" />
       <module name="libraries" target="1.8" />
+      <module name="master-model" target="1.8" />
       <module name="outbound-api" target="1.8" />
       <module name="outbound-impl" target="1.8" />
       <module name="rest-web" target="1.8" />

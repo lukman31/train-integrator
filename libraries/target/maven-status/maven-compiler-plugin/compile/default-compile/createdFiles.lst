@@ -1,0 +1,8 @@
+com\tiket\tix\train\integrator\libraries\configuration\MongoConfig.class
+com\tiket\tix\train\integrator\libraries\configuration\CacheConfiguration.class
+com\tiket\tix\train\integrator\libraries\configuration\RetrofitConfiguration.class
+com\tiket\tix\train\integrator\libraries\configuration\ExampleEndpointService.class
+com\tiket\tix\train\integrator\libraries\exception\BusinessLogicException.class
+com\tiket\tix\train\integrator\libraries\configuration\SwaggerConfiguration.class
+com\tiket\tix\train\integrator\libraries\configuration\OkHttpConfiguration.class
+com\tiket\tix\train\integrator\libraries\configuration\MongoBeeInit.class

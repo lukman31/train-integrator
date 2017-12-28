@@ -1,0 +1,3 @@
+com\tiket\tix\train\integrator\dao\api\SystemParameterRepositoryCustom.class
+com\tiket\tix\train\integrator\dao\api\SystemParameterRepository.class
+com\tiket\tix\train\integrator\dao\mongodb\SystemParameterRepositoryImpl.class

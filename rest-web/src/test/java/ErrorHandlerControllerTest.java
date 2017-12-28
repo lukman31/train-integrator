@@ -6,13 +6,13 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
 
-import train-integrator.entity.constant.ApiPath;
-import train-integrator.entity.constant.enums.ResponseCode;
-import train-integrator.entity.constant.unit.test.CommonTestVariable;
-import train-integrator.entity.constant.unit.test.SystemParameterTestVariable;
-import train-integrator.rest.web.controller.ErrorHandlerController;
-import train-integrator.rest.web.controller.SystemParameterController;
-import train-integrator.service.api.SystemParameterService;
+import com.tiket.tix.train.integrator.entity.constant.ApiPath;
+import com.tiket.tix.train.integrator.entity.constant.enums.ResponseCode;
+import com.tiket.tix.train.integrator.entity.constant.unit.test.CommonTestVariable;
+import com.tiket.tix.train.integrator.entity.constant.unit.test.SystemParameterTestVariable;
+import com.tiket.tix.train.integrator.rest.web.controller.ErrorHandlerController;
+import com.tiket.tix.train.integrator.rest.web.controller.SystemParameterController;
+import com.tiket.tix.train.integrator.service.api.SystemParameterService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
